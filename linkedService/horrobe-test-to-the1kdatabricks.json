@@ -1,0 +1,14 @@
+{
+	"name": "horrobe-test-to-the1kdatabricks",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Link bwetween horrobe-test and databricks: the1kdatabricks ",
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-4085927591275757.17.azuredatabricks.net",
+			"existingClusterId": "0602-134305-6u8yizxa",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg5QTdFRDRELTBEOTktNDM4OS04QjU3LTdDQUI2MzUzNjUyMV8xNDdkNjE0My04N2RhLTRhZDEtYWZlYi02MWVkZjg5MWMwMDkiDQp9"
+		},
+		"annotations": []
+	}
+}

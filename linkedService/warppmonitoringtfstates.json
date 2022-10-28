@@ -1,0 +1,25 @@
+{
+	"name": "warppmonitoringtfstates",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://warppmonitoringtfstates.blob.core.windows.net",
+			"sasToken": {
+				"secretName": "test-warppmonitoringtfstates-sastoken",
+				"store": {
+					"referenceName": "horrobe-test-to-DAIM-P-BYOK-KV",
+					"type": "LinkedServiceReference"
+				},
+				"type": "AzureKeyVaultSecret"
+			},
+			"servicePrincipalId": "",
+			"servicePrincipalKey": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"tenant": ""
+		},
+		"annotations": []
+	}
+}

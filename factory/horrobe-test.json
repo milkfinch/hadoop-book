@@ -1,0 +1,21 @@
+{
+	"name": "horrobe-test",
+	"properties": {
+		"globalParameters": {
+			"TestParam": {
+				"type": "Int",
+				"value": 1024
+			},
+			"environment": {
+				"type": "String",
+				"value": "production"
+			}
+		}
+	},
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "52637649-6505-40e6-be18-f11740f20cbd",
+		"tenantId": "9652d7c2-1ccf-4940-8151-4a92bd474ed0"
+	}
+}
